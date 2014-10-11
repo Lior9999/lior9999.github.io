@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">Portfolio</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+<link rel="self" type="application/atom+xml" href="http://lior9999.com/feed.xml" />
+<link rel="alternate" type="text/html" href="http://lior9999.com" />
+<updated>2014-10-11T14:56:50-04:00</updated>
+<id>http://lior9999.com/</id>
+<author>
+  <name>Lior</name>
+  <uri>http://lior9999.com/</uri>
+  <email>admin@lior9999.com</email>
+</author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[BoilerMake Hackathon Badge]]></title>
+  <link rel="alternate" type="text/html" href="http://lior9999.com/boilermakebadge-i/" />
+  <id>http://lior9999.com/boilermakebadge-i</id>
+  <published>2014-10-10T17:58:14-04:00</published>
+  <updated>2014-10-10T17:58:14-04:00</updated>
+  <author>
+    <name>Lior</name>
+    <uri>http://lior9999.com</uri>
+    <email>admin@lior9999.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Since our team for this massive project mainly consists of myself and my colleague, Thomas Kilbride, I’ve been too busy to document our progress (or sleep). Regardless, here’s at least a picture of our prototype:&lt;/p&gt;
+
+&lt;h4 id=&quot;prototyped-badge-pcb&quot;&gt;Prototyped Badge PCB&lt;/h4&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/images/boilerbadgeprototype.jpeg&quot;&gt;&lt;img src=&quot;/images/boilerbadgeprototype.jpeg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;With little time to dedicate to writing some meaningful information in here, I’ll just fill the rest of this void with Lorem Ipsum so it doesn’t look so empty. Enjoy.&lt;/p&gt;
+
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras consectetur eros et condimentum bibendum. Nullam augue arcu, ultrices sed egestas ut, sagittis sit amet urna. Morbi et ex congue, porttitor nisl vitae, malesuada arcu. Maecenas auctor interdum maximus. Phasellus velit tellus, condimentum et condimentum molestie, maximus et ipsum. Aliquam erat volutpat. Sed ut risus ornare, rutrum nisl ut, eleifend leo. In feugiat ligula velit, a dignissim mauris blandit non. Curabitur accumsan ullamcorper dui, ut fermentum nulla posuere dictum. Vestibulum mollis felis metus, a sollicitudin augue lobortis eu. Phasellus faucibus ex eu rutrum vestibulum. Maecenas a augue ut ipsum euismod euismod id eget augue. Nulla facilisi. Aliquam semper interdum nulla non suscipit. Nam in eros at est vehicula rutrum. Donec sit amet libero eu magna elementum imperdiet.&lt;/p&gt;
+
+&lt;p&gt;Nulla id risus vitae mauris pulvinar condimentum suscipit et elit. Vestibulum fringilla convallis ullamcorper. In dolor orci, cursus ac facilisis vel, condimentum sed risus. Cras commodo, ante at sodales laoreet, massa augue commodo diam, sed auctor felis neque et sapien. Proin in lacus ac nibh scelerisque consectetur. Cras ut eleifend tortor, eget pulvinar ex. Aenean in arcu risus. Praesent tristique felis enim, quis volutpat ipsum fringilla et. Etiam elit ex, vulputate id tortor hendrerit, lacinia mattis sem.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://lior9999.com/boilermakebadge-i/&quot;&gt;BoilerMake Hackathon Badge&lt;/a&gt; was originally published by Lior at &lt;a href=&quot;http://lior9999.com&quot;&gt;Portfolio&lt;/a&gt; on October 10, 2014.&lt;/p&gt;</content>
+</entry>
+
+</feed>

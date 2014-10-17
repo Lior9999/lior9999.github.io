@@ -5,34 +5,34 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title>About me &#8211; Portfolio</title>
-
-<meta name="keywords" content="about, Jekyll, theme, responsive">
+<title>RAL - Robotic Autonomous Lawnmower &#8211; Portfolio</title>
+<meta name="description" content="A wirelessly and autonomously controlled lawnmowing robot.">
+<meta name="keywords" content="">
 
 
 
 <!-- Twitter Cards -->
-<meta name="twitter:title" content="About me">
+<meta name="twitter:title" content="RAL - Robotic Autonomous Lawnmower">
+<meta name="twitter:description" content="A wirelessly and autonomously controlled lawnmowing robot.">
 
 
 
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://lior9999.com//images/boilermake-badge-pcb.png">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://lior9999.com//images/default-thumb.png">
 
 <!-- Open Graph -->
 <meta property="og:locale" content="en_US">
 <meta property="og:type" content="article">
-<meta property="og:title" content="About me">
-
-<meta property="og:url" content="http://lior9999.com//about/">
+<meta property="og:title" content="RAL - Robotic Autonomous Lawnmower">
+<meta property="og:description" content="A wirelessly and autonomously controlled lawnmowing robot.">
+<meta property="og:url" content="http://lior9999.com//RAL/">
 <meta property="og:site_name" content="Portfolio">
 
 
 
 
 
-<link rel="canonical" href="http://lior9999.com//about/">
+<link rel="canonical" href="http://lior9999.com//RAL/">
 <link href="http://lior9999.com//feed.xml" type="application/atom+xml" rel="alternate" title="Portfolio Feed">
 
 
@@ -73,7 +73,7 @@
 
 </head>
 
-<body class="page">
+<body class="post">
 
 <!--[if lt IE 9]><div class="browser-upgrade alert alert-info">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div><![endif]-->
 
@@ -111,17 +111,6 @@
 </div><!-- /.navigation-wrapper -->
 
 
-  <div class="image-wrap">
-  <img src=
-    
-      "http://lior9999.com//images/boilermake-badge-pcb.png"
-    
-  alt="About me feature image">
-  
-    <span class="image-credit">Photo Credit: <a href="">Lior Ben-Yehoshua, BoilerMake Badge</a></span>
-  
-  </div><!-- /.image-wrap -->
-
 
 <div id="main" role="main">
   <div class="article-author-side">
@@ -150,17 +139,96 @@
 
 
   </div>
-  <article class="page">
-    <h1>About me</h1>
+  <article class="post">
+    <div class="headline-wrap">
+      
+        <h1><a href="http://lior9999.com//RAL/" rel="bookmark" title="RAL - Robotic Autonomous Lawnmower">RAL - Robotic Autonomous Lawnmower</a></h1>
+      
+    </div><!--/ .headline-wrap -->
     <div class="article-wrap">
-      <p>I’m a PhD student at Purdue University studying Electrical Engineering. My research interests lie in the Bio-MEMS field as well as in micro-devices for biomedical applications. I also enjoy embedded systems development, amateur SDR, and video games.</p>
+      <p>If there is one thing I truly despise, it is mowing my lawn. I’d much rather be spending my time doing…literally anything else. Unfortunately I have grass that needs cutting, and quite a bit of it (sort of). The solution? Why a robotic lawnmower, of course. So without further ado, meet RAL:</p>
 
+<figure>
+	<a href="/images/ral_pose.jpg"><img src="/images/ral_pose.jpg" /></a>
+</figure>
+
+<p>After a painstaking two months of on and off work, I can safely say RAL is (nearly) finished. RAL’s features &amp; components include:</p>
+
+<p>*12V car battery
+*4 CIM motors
+*4 speed controllers
+*3-axis gyro/accelerometer
+*2 ultrasonic range sensors
+*wireless PS2 controller
+*9S12C Freescale microcontroller with custom board</p>
+
+<p>RAL can be operated wirelessly or be put in autonomous mode. RAL is capable of driving straight and making 90 and 180 degree turns accurately using the on-board gyro and accelerometer. Two ultrasonic sensors located in the front of the robot allow him to navigate around large obstacles.</p>
+
+<p>Below are a few more pictures of RAL:</p>
+
+<h4 id="microcontroller-stamp-module-pcb">Microcontroller stamp module PCB</h4>
+
+<figure>
+	<a href="/images/ral_board.jpg"><img src="/images/ral_board.jpg" /></a>
+</figure>
+
+<h4 id="ral-body-naked">RAL body (naked)</h4>
+
+<figure>
+	<a href="/images/ral_body.jpg"><img src="/images/ral_body.jpg" /></a>
+</figure>
+
+<p>The body was cut, drilled, riveted, and painted in my shop in the garage by yours truly. A good reminder of why I opted to not become a mechanical engineer. You might notice that the wheels are all directly chained to the motors with only a single gear reduction. I initially planned on having two gear boxes, one on either side, for RAL’s drivetrain but unfortunately I ran out of funding. RAL still drives decently, he just has a hard time making tight turns.</p>
+
+<p>I designed and assembled the microcontroller stamp module PCB specifically for this project. The Freescale microcontroller was selected because I hadn’t gotten the chance to use them on a project yet. However, in the future I’ll probably be going back to sticking to PICs and ATMELs.</p>
+
+<p>I haven’t bought the hardware to mount the lawnmower base to the robot yet. That’ll probably come later in the Spring since I don’t really need RAL during the winter.</p>
+
+      <hr />
+      <footer role="contentinfo">
+        <div class="article-author-bottom">
+          
+
+
+
+	<img src="http://lior9999.com//images/bio-photo.jpg" class="bio-photo" alt="Lior bio photo">
+
+<h3>Lior</h3>
+<h3>Ben-Yehoshua</h3>
+<p></p>
+<a href="mailto:admin@lior9999.com" class="author-social" target="_blank"><i class="fa fa-envelope-square"></i> Email</a>
+
+<a href="http://facebook.com/liorben" class="author-social" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a>
+
+<a href="http://linkedin.com/in/Lior9999" class="author-social" target="_blank"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+
+
+<a href="http://github.com/Lior9999" class="author-social" target="_blank"><i class="fa fa-github"></i> Github</a>
+
+
+
+
+
+
+
+        </div>
+        <p class="byline"><strong>RAL - Robotic Autonomous Lawnmower</strong> was published on <time datetime="2013-11-28T15:52:07-05:00">November 28, 2013</time>.</p>
+      </footer>
     </div><!-- /.article-wrap -->
-    
+  
   </article>
-</div><!-- /#index -->
+</div><!-- /#main -->
 
 <div class="footer-wrap">
+  <div class="related-articles">
+  <h4>You might also enjoy <small class="pull-right">(<a href="http://lior9999.com//posts/">View all posts</a>)</small></h4>
+    <ul>
+    
+      <li><a href="http://lior9999.com//boilermakebadge-i/" title="BoilerMake Hackathon Badge">BoilerMake Hackathon Badge</a></li>
+    
+    </ul>
+    <hr />
+  </div><!-- /.related-articles -->
   <footer>
     
 
@@ -173,9 +241,7 @@
 <script>window.jQuery || document.write('<script src="http://lior9999.com//assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 <script src="http://lior9999.com//assets/js/scripts.min.js"></script>
 
-
-  
-          
+	        
 
 </body>
 </html>

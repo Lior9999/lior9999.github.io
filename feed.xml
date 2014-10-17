@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 <title type="text">Portfolio</title>
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
-<link rel="self" type="application/atom+xml" href="http://lior9999.com/feed.xml" />
-<link rel="alternate" type="text/html" href="http://lior9999.com" />
-<updated>2014-10-11T14:56:50-04:00</updated>
-<id>http://lior9999.com/</id>
+<link rel="self" type="application/atom+xml" href="http://lior9999.com//feed.xml" />
+<link rel="alternate" type="text/html" href="http://lior9999.com/" />
+<updated>2014-10-17T19:33:31-04:00</updated>
+<id>http://lior9999.com//</id>
 <author>
   <name>Lior</name>
-  <uri>http://lior9999.com/</uri>
+  <uri>http://lior9999.com//</uri>
   <email>admin@lior9999.com</email>
 </author>
 
@@ -17,13 +17,13 @@
 
 <entry>
   <title type="html"><![CDATA[BoilerMake Hackathon Badge]]></title>
-  <link rel="alternate" type="text/html" href="http://lior9999.com/boilermakebadge-i/" />
-  <id>http://lior9999.com/boilermakebadge-i</id>
+  <link rel="alternate" type="text/html" href="http://lior9999.com//boilermakebadge-i/" />
+  <id>http://lior9999.com//boilermakebadge-i</id>
   <published>2014-10-10T17:58:14-04:00</published>
   <updated>2014-10-10T17:58:14-04:00</updated>
   <author>
     <name>Lior</name>
-    <uri>http://lior9999.com</uri>
+    <uri>http://lior9999.com/</uri>
     <email>admin@lior9999.com</email>
   </author>
   <content type="html">&lt;p&gt;Since our team for this massive project mainly consists of myself and my colleague, Thomas Kilbride, I’ve been too busy to document our progress (or sleep). Regardless, here’s at least a picture of our prototype:&lt;/p&gt;
@@ -40,7 +40,62 @@
 
 &lt;p&gt;Nulla id risus vitae mauris pulvinar condimentum suscipit et elit. Vestibulum fringilla convallis ullamcorper. In dolor orci, cursus ac facilisis vel, condimentum sed risus. Cras commodo, ante at sodales laoreet, massa augue commodo diam, sed auctor felis neque et sapien. Proin in lacus ac nibh scelerisque consectetur. Cras ut eleifend tortor, eget pulvinar ex. Aenean in arcu risus. Praesent tristique felis enim, quis volutpat ipsum fringilla et. Etiam elit ex, vulputate id tortor hendrerit, lacinia mattis sem.&lt;/p&gt;
 
-  &lt;p&gt;&lt;a href=&quot;http://lior9999.com/boilermakebadge-i/&quot;&gt;BoilerMake Hackathon Badge&lt;/a&gt; was originally published by Lior at &lt;a href=&quot;http://lior9999.com&quot;&gt;Portfolio&lt;/a&gt; on October 10, 2014.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http://lior9999.com//boilermakebadge-i/&quot;&gt;BoilerMake Hackathon Badge&lt;/a&gt; was originally published by Lior at &lt;a href=&quot;http://lior9999.com/&quot;&gt;Portfolio&lt;/a&gt; on October 10, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[RAL - Robotic Autonomous Lawnmower]]></title>
+  <link rel="alternate" type="text/html" href="http://lior9999.com//RAL/" />
+  <id>http://lior9999.com//RAL</id>
+  <published>2013-11-28T15:52:07-05:00</published>
+  <updated>2013-11-28T15:52:07-05:00</updated>
+  <author>
+    <name>Lior</name>
+    <uri>http://lior9999.com/</uri>
+    <email>admin@lior9999.com</email>
+  </author>
+  <content type="html">&lt;p&gt;If there is one thing I truly despise, it is mowing my lawn. I’d much rather be spending my time doing…literally anything else. Unfortunately I have grass that needs cutting, and quite a bit of it (sort of). The solution? Why a robotic lawnmower, of course. So without further ado, meet RAL:&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/images/ral_pose.jpg&quot;&gt;&lt;img src=&quot;/images/ral_pose.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;After a painstaking two months of on and off work, I can safely say RAL is (nearly) finished. RAL’s features &amp;amp; components include:&lt;/p&gt;
+
+&lt;p&gt;*12V car battery
+*4 CIM motors
+*4 speed controllers
+*3-axis gyro/accelerometer
+*2 ultrasonic range sensors
+*wireless PS2 controller
+*9S12C Freescale microcontroller with custom board&lt;/p&gt;
+
+&lt;p&gt;RAL can be operated wirelessly or be put in autonomous mode. RAL is capable of driving straight and making 90 and 180 degree turns accurately using the on-board gyro and accelerometer. Two ultrasonic sensors located in the front of the robot allow him to navigate around large obstacles.&lt;/p&gt;
+
+&lt;p&gt;Below are a few more pictures of RAL:&lt;/p&gt;
+
+&lt;h4 id=&quot;microcontroller-stamp-module-pcb&quot;&gt;Microcontroller stamp module PCB&lt;/h4&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/images/ral_board.jpg&quot;&gt;&lt;img src=&quot;/images/ral_board.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;ral-body-naked&quot;&gt;RAL body (naked)&lt;/h4&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/images/ral_body.jpg&quot;&gt;&lt;img src=&quot;/images/ral_body.jpg&quot; /&gt;&lt;/a&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;The body was cut, drilled, riveted, and painted in my shop in the garage by yours truly. A good reminder of why I opted to not become a mechanical engineer. You might notice that the wheels are all directly chained to the motors with only a single gear reduction. I initially planned on having two gear boxes, one on either side, for RAL’s drivetrain but unfortunately I ran out of funding. RAL still drives decently, he just has a hard time making tight turns.&lt;/p&gt;
+
+&lt;p&gt;I designed and assembled the microcontroller stamp module PCB specifically for this project. The Freescale microcontroller was selected because I hadn’t gotten the chance to use them on a project yet. However, in the future I’ll probably be going back to sticking to PICs and ATMELs.&lt;/p&gt;
+
+&lt;p&gt;I haven’t bought the hardware to mount the lawnmower base to the robot yet. That’ll probably come later in the Spring since I don’t really need RAL during the winter.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://lior9999.com//RAL/&quot;&gt;RAL - Robotic Autonomous Lawnmower&lt;/a&gt; was originally published by Lior at &lt;a href=&quot;http://lior9999.com/&quot;&gt;Portfolio&lt;/a&gt; on November 28, 2013.&lt;/p&gt;</content>
 </entry>
 
 </feed>

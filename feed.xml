@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lior9999.com//feed.xml" />
 <link rel="alternate" type="text/html" href="http://lior9999.com/" />
-<updated>2014-10-20T10:31:22-04:00</updated>
+<updated>2014-10-20T10:38:58-04:00</updated>
 <id>http://lior9999.com//</id>
 <author>
   <name>Lior</name>
@@ -60,7 +60,7 @@
   <content type="html">&lt;p&gt;If there is one thing I truly despise, it is mowing my lawn. I’d much rather be spending my time doing…literally anything else. Unfortunately I have grass that needs cutting, and quite a bit of it. The solution? A robotic lawnmower, of course. So without further ado, meet RAL:&lt;/p&gt;
 
 &lt;figure&gt;
-	&lt;a href=&quot;/images/3953273590_704e3899d5_m.jpg&quot;&gt;&lt;img src=&quot;/images/3953273590_704e3899d5_m.jpg&quot; /&gt;&lt;/a&gt;
+	&lt;a href=&quot;/images/ral_pose.jpg&quot;&gt;&lt;img src=&quot;/images/ral_pose.jpg&quot; /&gt;&lt;/a&gt;
 &lt;/figure&gt;
 
 &lt;p&gt;After two months of on and off work, I can safely say RAL is (nearly) finished. RAL’s components include:&lt;/p&gt;

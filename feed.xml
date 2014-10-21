@@ -4,7 +4,7 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lior9999.com//feed.xml" />
 <link rel="alternate" type="text/html" href="http://lior9999.com/" />
-<updated>2014-10-21T14:03:17-04:00</updated>
+<updated>2014-10-21T15:21:00-04:00</updated>
 <id>http://lior9999.com//</id>
 <author>
   <name>Lior</name>
@@ -41,6 +41,66 @@
 &lt;p&gt;Nulla id risus vitae mauris pulvinar condimentum suscipit et elit. Vestibulum fringilla convallis ullamcorper. In dolor orci, cursus ac facilisis vel, condimentum sed risus. Cras commodo, ante at sodales laoreet, massa augue commodo diam, sed auctor felis neque et sapien. Proin in lacus ac nibh scelerisque consectetur. Cras ut eleifend tortor, eget pulvinar ex. Aenean in arcu risus. Praesent tristique felis enim, quis volutpat ipsum fringilla et. Etiam elit ex, vulputate id tortor hendrerit, lacinia mattis sem.&lt;/p&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://lior9999.com//boilermakebadge-i/&quot;&gt;BoilerMake Hackathon Badge&lt;/a&gt; was originally published by Lior at &lt;a href=&quot;http://lior9999.com/&quot;&gt;Lior Ben-Yehoshua&lt;/a&gt; on October 10, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[Home BLE Mesh Network]]></title>
+  <link rel="alternate" type="text/html" href="http://lior9999.com//home-ble-mesh-network/" />
+  <id>http://lior9999.com//home-ble-mesh-network</id>
+  <published>2014-09-25T14:17:10-04:00</published>
+  <updated>2014-09-25T14:17:10-04:00</updated>
+  <author>
+    <name>Lior</name>
+    <uri>http://lior9999.com/</uri>
+    <email>admin@lior9999.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Two weeks ago I ordered some Bluegiga BLE112 bluetooth low energy modules to play around with. There are some light fixtures around my house that I’d like to be able to control more conveniently, so I figured why not use BLE to do it. You can get the BLE112 modules over at the &lt;a href=&quot;http://www.semiconductorstore.com/cart/pc/viewPrd.asp?idproduct=46652&quot;&gt;Semiconductor Store&lt;/a&gt; for about $14 a pop. I also purchased a breakout panel from &lt;a href=&quot;http://www.inmojo.com/store/jeff-rowberg/item/ble112-bluetooth-low-energy-breakout/&quot;&gt;Jeff Rowberg’s&lt;/a&gt; online shop for $6 each (Jeff is a field applications engineer at Bluegiga). I could’ve also just used my free CC2541 samples that I got straight from TI and broken them out with a Schmart board for only about $10, but decided to go with Bluegiga because of a different reason entirely: BGScript. You’ll also need a way to flash the BLE112. I used my old &lt;a href=&quot;http://www.ti.com/tool/cc-debugger&quot;&gt;CC-Debugger&lt;/a&gt; from TI.&lt;/p&gt;
+
+&lt;h4 id=&quot;bgscript&quot;&gt;BGScript&lt;/h4&gt;
+
+&lt;p&gt;BGScript is a simple BASIC-style programming language that allows you to embed applications to the Bluegiga BLE modules. BGScript is a very simple and easy to learn programming language, which is partly why I chose to use it. But it also frees me from being forced to use IAR Embedded Workbench to write code from the CC2541, something that is pretty much impossible to do without having to deal with annoying evaluation licenses or forking over some serious cash. You can find all of the downloads, documentation, and a syntax highlighter for BGScript over at the Bluegiga product support page by registering for their website.&lt;/p&gt;
+
+&lt;h4 id=&quot;ble112-modules&quot;&gt;BLE112 modules&lt;/h4&gt;
+
+&lt;p&gt;As a word of caution, be very careful when flashing the BLE112 modules. When I initially toyed around with them I was using just a breadboard and some jumpers. This ended up bricking my module and losing the device’s serial # and MAC address. This seems to be a common occurrence, so I would recommend recording those numbers somewhere and adding a proper programming header to whatever breakout you use.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/images/BLE112_breakoutpinout.png&quot;&gt;&lt;img src=&quot;/images/BLE112_breakoutpinout.png&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;BLE112 breakout pinout for use with the CC-Debugger.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&quot;approach&quot;&gt;Approach&lt;/h4&gt;
+
+&lt;p&gt;At first I just wanted to be able to control a few remote relays by using a simple iPhone app (everyone in my house owns iPhones, and I don’t particularly want to take the time to learn android app dev). Getting that to work was extremely trivial and only took about one afternoon. To make this project more interesting, I’ve decided to add some features to the system:&lt;/p&gt;
+
+&lt;p&gt;*Create a mesh network too allow data exchange between far away sensors while maintaining low power.
+*Use the proximity profile (RSSI) to determine where a user is within the house.
+*Allow each house member a specific profile that they can customize.
+*Manage which nodes do what based on a user’s location and specific profile.&lt;/p&gt;
+
+&lt;h4 id=&quot;to-do&quot;&gt;To-Do&lt;/h4&gt;
+
+&lt;p&gt;Recent freelance projects have forced me to delay this project by quite a bit. Hopefully I’ll be able to return to it soon. What’s left:&lt;/p&gt;
+
+&lt;p&gt;*Finish writing a simple IOS app.
+*Order more BLE112 modules (need about 4 more).
+*Finalize mesh network protocol and code.
+*Tune my RSSI settings.&lt;/p&gt;
+
+&lt;p&gt;Will update my progress once I get some more free time.&lt;/p&gt;
+
+&lt;h4 id=&quot;future-plans&quot;&gt;Future Plans&lt;/h4&gt;
+
+&lt;p&gt;Although the probability of me having enough time to add more features to the network seems very unlikely, a boy can dream. Here’s what I’d like to do with the mesh network once my current to-do list is finished:&lt;/p&gt;
+
+&lt;p&gt;*Add temperature sensors to some of the nodes to map out ambient temperature.
+*Add more nodes to control every light via the network.
+*Integrate the AC system into the network.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://lior9999.com//home-ble-mesh-network/&quot;&gt;Home BLE Mesh Network&lt;/a&gt; was originally published by Lior at &lt;a href=&quot;http://lior9999.com/&quot;&gt;Lior Ben-Yehoshua&lt;/a&gt; on September 25, 2014.&lt;/p&gt;</content>
 </entry>
 
 

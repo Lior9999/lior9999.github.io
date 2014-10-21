@@ -4,13 +4,53 @@
 <generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://lior9999.com//feed.xml" />
 <link rel="alternate" type="text/html" href="http://lior9999.com/" />
-<updated>2014-10-21T15:22:53-04:00</updated>
+<updated>2014-10-21T15:52:17-04:00</updated>
 <id>http://lior9999.com//</id>
 <author>
   <name>Lior</name>
   <uri>http://lior9999.com//</uri>
   <email>admin@lior9999.com</email>
 </author>
+
+
+  
+
+<entry>
+  <title type="html"><![CDATA[3D Microfluidics Structures via Vacuum Deformation]]></title>
+  <link rel="alternate" type="text/html" href="http://lior9999.com//3d-microfluidics-structures-via-vacuum-deformation/" />
+  <id>http://lior9999.com//3d-microfluidics-structures-via-vacuum-deformation</id>
+  <published>2014-10-21T15:28:36-04:00</published>
+  <updated>2014-10-21T15:28:36-04:00</updated>
+  <author>
+    <name>Lior</name>
+    <uri>http://lior9999.com/</uri>
+    <email>admin@lior9999.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Flexible and stretchable microsystem platforms have recently garnered significant attention due to their increasing variety of applications ranging from biomedical monitoring systems to soft robotic actuators. Of particular importance to BioMEMS and lab-on-chip applications are those which enable the incorporation of complex microfluidic networks. Many of these systems, however, are expensive to fabricate and remain limited by traditional MEMS fabrication procedures that are optimized for planar architectures. Some systems aim to overcome this latter issue by using positive pressure, which requires a controlled pressure source during device usage, while others resort to solvent-induced deformation.&lt;/p&gt;
+
+&lt;p&gt;Here I present a novel technique for fabricating auto-deformable soft microfluidic platforms that exhibit out-of-plane deflections. The fabrication features rapid prototyping techniques that reduce production cost and time and enable straightforward customization. The structures are fabricated out of lasr-machined PDMS films via a layer-by-layer approach. Embedded microchannels allow fluid flow in the structures, while a logically-designed set of air pockets enables controlled three-dimensional structure deformation when placed in a vacuum. The vacuum-induced deformations are finally locked in place with a Parylene-C coat. Below is a schematic representation of the fabrication procedure of the structures.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/images/vacuum_schematic.png&quot;&gt;&lt;img src=&quot;/images/vacuum_schematic.png&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Fabrication procedure of the structures. (a) a thin (~500 μm) PDMS layer is cast; (b) it is laser-cut to define channels and deflection pockets, and subsequently bonded to a thicker (~800 μm) PDMS; (c) a thin (~100 μm) PDMS is bonded to the laser-cut layer, creating closed channels. (e) The structure is placed in vacuum to de-gas the air pockets, and (f) a thin layer of Parylene is then deposited. (g) The structure deflects upon removal from vacuum.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Below are some photographs of deflected, Parylene coated structures with and without liquid microchannels.&lt;/p&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/images/vacuum_channelcloseup.png&quot;&gt;&lt;img src=&quot;/images/vacuum_channelcloseup.png&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Close up view of a fabricated deflectable structure showing the deflection-controlling pockets and a liquid-filled microchannel. Microscope inset shows laser-machined detail. Scale bar: 500 μm.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;a href=&quot;/images/vacuum_deflectpic.png&quot;&gt;&lt;img src=&quot;/images/vacuum_deflectpic.png&quot; /&gt;&lt;/a&gt;
+	&lt;figcaption&gt;Photographs of deflected, Parylene-coated structures (a) with and (b) without liquid microchannels.&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Final curvature can be adjusted by differing laser-machined patterns, PDMS thickness, or by further adjusting the Parylene thickness to allow for a greater pressure gradient.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://lior9999.com//3d-microfluidics-structures-via-vacuum-deformation/&quot;&gt;3D Microfluidics Structures via Vacuum Deformation&lt;/a&gt; was originally published by Lior at &lt;a href=&quot;http://lior9999.com/&quot;&gt;Lior Ben-Yehoshua&lt;/a&gt; on October 21, 2014.&lt;/p&gt;</content>
+</entry>
 
 
   
